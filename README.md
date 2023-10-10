@@ -1,4 +1,4 @@
-# Text-spam-detection-system
+# Email/SMS-spam-detection-system
 
 ## Introduction:
 
