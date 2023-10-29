@@ -4,8 +4,8 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import string
-nltk.download('punkt')
-nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('stopwords')
 
 # PorterStemmer object initiate
 ps = PorterStemmer()
@@ -49,7 +49,6 @@ st.markdown('###### This model can detect spam messages with an accuracy of 97%.
 
 st.markdown(" ")
 user_input = st.text_input('Enter your text here')
-
 
 if st.button("Predict"):
     if user_input[:] == "":
