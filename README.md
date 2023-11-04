@@ -14,6 +14,6 @@ In an era where digital communication is essential, the volume of unsolicited an
 - MultiNominal Naive bayes machine learning algorithm
 - nltk library
 - sci-kit learn, ect
--  
+
 ## Testing 
 To access the web app follow link- https://text-spam-detection-system-8oqenhhkagkzpcg7yxfx96.streamlit.app/
