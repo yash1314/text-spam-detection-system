@@ -4,8 +4,9 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import string
-nltk.download('punkt')
-nltk.download('stopwords')
+
+nltk.download('punkt', quiet = True)
+nltk.download('stopwords', quiet = True)
 
 # PorterStemmer object initiate
 ps = PorterStemmer()
@@ -42,7 +43,7 @@ def transform_text(text):
 tfidf = pd.read_pickle('models/vectorizer.pkl')
 model = pd.read_pickle('models/model.pkl')
 
-st.title('*SMS/Email Spam Detection*')
+st.title(':rainbow[*SMS/Email Spam Detection*]')
 st.markdown("-------------------")
 st.markdown('##### Discover if your text messages are safe or sneaky! Try this SMS Spam Detection now!')
 st.markdown('###### This model can detect spam messages with an accuracy of 97%.')
